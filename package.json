@@ -1,0 +1,14 @@
+{
+  "name": "agent-test-generator",
+  "version": "1.0.0",
+  "description": "AI Test Case Generator",
+  "private": true,
+  "workspaces": ["packages/*", "services/*", "integrations/*"],
+  "scripts": {
+    "test": "npm test --workspaces --if-present",
+    "dev": "npm run dev --workspaces --if-present"
+  },
+  "keywords": ["agent", "ai", "unit-test,integration,e2e,coverage"],
+  "author": "Yoshi Kondo <yoshi@musicailab.com>",
+  "license": "MIT"
+}
